@@ -5,9 +5,8 @@ import wikipedia
 
 from aiogram import Bot, Dispatcher, executor, types
 
-API_TOKEN = 'APINGIZNI YOZING'
+API_TOKEN = 'APINGIZNI YOZING' # Bu yerga Telegram oraqli https://t.me/BotFather tomonidan berilgan APIni yozasiz.
 wikipedia.set_lang('uz')
--
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
